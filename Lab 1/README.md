@@ -70,10 +70,10 @@ _Activity:_ Although this is her job, this is a stressfull situation for Lisa as
 _Goals:_ Lisa wants to be aware of when John is not sleeping and may need assistance, for safety purposes. John wants to live independently but may need assistance throughout the night.   
 
 
-
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 
 \*\***Include a picture of your storyboard here**\*\*
+![Image of Storyboard Version 1](https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%201/storyboard_v1.jpg)
 
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
