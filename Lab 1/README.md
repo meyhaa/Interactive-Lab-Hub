@@ -89,26 +89,17 @@ I presented my idea to Rohan Reddy, Saurav Panda, and Shenxin Jiang. Feedback re
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
+* There are a multitude of action that could occur: client moving around, sitting up but not getting out of bed, not needing help, etc... But the light interaction doesn't facilitate for communicating such nuances. However, the light interaction was able to be staged for the one action of the client getting up out of bed. 
 
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
-
+* New idea: what if caregiver goes to kitchen
 
 ## Part C. Prototype the device
 
-You will be using your smartphone as a stand-in for the device you are prototyping. You will use the browser of your smart phone to act as a “light” and use a remote control interface to remotely change the light on that device. 
-
-Code for the "Tinkerbelle" tool, and instructions for setting up the server and your phone are [here](https://github.com/FAR-Lab/tinkerbelle).
-
-We invented this tool for this lab! 
-
-If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
-
-\*\***Give us feedback on Tinkerbelle.**\*\*
+I did not use the Tinkerbelle tool for staging this interaction, but rather changed the lights remotely. 
 
 
 ## Part D. Wizard the device
-Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
-
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
@@ -117,23 +108,17 @@ Now, hange the goal within the same setting, and update the interaction with the
 
 
 ## Part E. Costume the device
-
-Only now should you start worrying about what the device should look like. Develop a costume so that you can use your phone as this device.
-
-Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
-
-\*\***Include sketches of what your device might look like here.**\*\*
-
-\*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
+n/a since I did not use my phone with the Tinkerbelle tool.
 
 
 ## Part F. Record
 
 \*\***Take a video of your prototyped interaction.**\*\*
+Video for the first iteration of this staged interaction can be found [here](https://drive.google.com/file/d/1DWvN_szDh4go8i45v5cYj-FrFcgGJjQn/view?usp=sharing)
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
-
+I collaborated with Rohan Reddy, who graciously let me use his kitchen with smart lights to film! 
 
 
 # Staging Interaction, Part 2 
