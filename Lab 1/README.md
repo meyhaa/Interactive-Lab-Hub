@@ -62,12 +62,12 @@ To stage the interaction with your interactive device, factors to consider:
 _Setting:_ A home where Lisa, a formal caregiver, is taking care of her client, John, at night. John is in his bedroom sleeping for most of the night. Lisa is either right outside his bedroom or around the house. 
 
 
-_Players:_ Lisa and John are the players, as John lives alone in his home. Lisa is the primary player as the nighttime caregiver with John being a secondary player. 
+_Players:_ Lisa is the primary player as the nighttime caregiver with John being a secondary player. John lives by himself at home so 
 
-_Activity:_ Although this is her job, this is a stressfull situation for Lisa as she stays up all night listening for any clues which may indicate John has woken up from his sleep and needs help: sounds of Johnn moving around, turning on a light, walking, etc... Lisa relies on sound and action based clues as she does not want to disturb John's sleep. 
+_Activity:_ Although this is Lisa's job, this is a stressfull situation for Lisa. She stays up all night, on high alert, listening for any clues which may indicate John has woken up from his sleep and needs help: sounds of Johnn moving around, turning on a light, walking, etc... Lisa relies on sound and action based clues as she does not want to disturb John's sleep by comming into the bedroom when possible. This device helps ease the burden on Lisa by passively detects John throughout the night and lighting up when John has woken up. This 
 
 
-_Goals:_ ohn's family hired Lisa for safety purposes; Lisa wants to be aware of when John is not sleeping and may need assistance. John wants to live independently but may need assistance throughout the night.   
+_Goals:_ John's family hired Lisa for safety purposes as they cannot be there at night to help John. Lisa wants to be aware of when John is not sleeping and may need assistance. John wants to continue to live at home, as independently as possible; but he may need assistance throughout the night: .   
 
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
@@ -127,22 +127,32 @@ This describes the second week's work for this lab activity.
 
 \*\***Summarize feedback from your partners here.**\*\*
 
-My idea was reviewed by Donal Michael Thomas Lowsley-Williams and Ken He. Feedback received: 
-* Most commonn feedback: Have the client also be able to interact with the system
-   - Large button for client to (1) indicate they don't need help OR (2) indicate when they need help
-   - Client should be able to interact with the system even if they are not able to get up and trigger the automatic alert 
-   - This button can also function as a phone or call line between the client and caregiver
+My idea was first reviewed by Donal Michael Thomas Lowsley-Williams and Ken He on Canvas; Sara Wang provided additional feedback during classtime. Feedback received: 
+* Most common feedback: John, the client, should also be able to interact with the system. 
+   - Large button for the client to indicate (1) they don't need help OR (2) when they need help
+   - Client should be able to interact with the system even if they are not able to get up which would trigger the automatic alert 
+   - This button can also function as a phone or call line between the client and caregiver. 
 * Other suggestions:
    - Wearable version for caregiver -- "light-emitting device as a wristband"
-   - Incorporate more than one type of light based interaction (ie blinking vs static) 
+   - Incorporate more than one type of light based interaction (i.e blinking vs static light) 
 
 ## Make it your own
+## Updates
+
 
 Do last week’s assignment again, but this time: 
 1) It doesn’t have to (just) use light, 
 2) You can use any modality (e.g., vibration, sound) to prototype the behaviors! Again, be creative!
 3) We will be grading with an emphasis on creativity. 
 
-For Part 2 of this lab, I focused on incorporating the client into the interaction system. 
+For Part 2 of this lab, I focused on also incorporating the client into the interaction system. Thus, the activity involved has expanded to include John. 
 
-\*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+\*\***Documentation of Updates **\*\*
+
+Setting the scene for the storyboard:
+
+![Setting the scene for revised storyboard](https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%201/revised_storyboard_scene.jpg)
+
+Storyboard of the two interactions:
+
+![Interactions for revised storyboard](https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%201/revised_storyboard_interactions.png)
