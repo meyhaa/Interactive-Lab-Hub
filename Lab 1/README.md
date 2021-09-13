@@ -67,7 +67,7 @@ _Players:_ Lisa and John are the players, as John lives alone in his home. Lisa 
 _Activity:_ Although this is her job, this is a stressfull situation for Lisa as she stays up all night listening for any clues which may indicate John has woken up from his sleep and needs help: sounds of Johnn moving around, turning on a light, walking, etc... Lisa relies on sound and action based clues as she does not want to disturb John's sleep. 
 
 
-_Goals:_ Lisa wants to be aware of when John is not sleeping and may need assistance, for safety purposes. John wants to live independently but may need assistance throughout the night.   
+_Goals:_ ohn's family hired Lisa for safety purposes; Lisa wants to be aware of when John is not sleeping and may need assistance. John wants to live independently but may need assistance throughout the night.   
 
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
@@ -96,16 +96,13 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 ## Part C. Prototype the device
 
-I did not use the Tinkerbelle tool for staging this interaction, but rather changed the lights remotely. 
+I was not able to fully troubleshoot the Tinkerbelle tool for staging this interaction. Thus, I opted to leverage other means of changing the lights: smart lights and zoom screen sharing. 
 
 
 ## Part D. Wizard the device
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 
-Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
-
-\*\***Show the follow-up work here.**\*\*
-
+Here is my first attempt at staging the interaction with smart lights. 
 
 ## Part E. Costume the device
 n/a since I did not use my phone with the Tinkerbelle tool.
