@@ -145,7 +145,14 @@ Do last week’s assignment again, but this time:
 2) You can use any modality (e.g., vibration, sound) to prototype the behaviors! Again, be creative!
 3) We will be grading with an emphasis on creativity. 
 
-For Part 2 of this lab, I focused on also incorporating the client into the interaction system. Thus, the activity involved has expanded to include John. 
+For Part 2 of this lab, I focused on incorporating the client into the interaction system. From peer feedback, we brainstormed a number of different scenarios when it would be important for the client to  actively participate in the system: when the client… 
+- Wants to call for help
+- Is not able to get up out of bed but needs assistance 
+- Communicate to caregiver that help is not urgently needed 
+
+As a result, John now has a large “button” near his side table and is a primary player in the system. When John presses the button on his side table, the lights start blinking orange compared to the static orange through passive detection. The difference in the light interaction represents the urgency to Lisa. 
+
+Current bed monitoring systems use loud alarms but also are plagued by false positive alarms; this ultimately ends up impacting the sleep of clients. Thus, light still remains the main modality of interaction in the system to minimize disturbances to John’s sleep. 
 
 \*\***Documentation of Updates **\*\*
 
