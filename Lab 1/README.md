@@ -125,9 +125,16 @@ This describes the second week's work for this lab activity.
 
 ## Prep (to be done before Lab on Wednesday)
 
-You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
-
 \*\***Summarize feedback from your partners here.**\*\*
+
+My idea was reviewed by Donal Michael Thomas Lowsley-Williams and Ken He. Feedback received: 
+* Most commonn feedback: Have the client also be able to interact with the system
+   - Large button for client to (1) indicate they don't need help OR (2) indicate when they need help
+   - Client should be able to interact with the system even if they are not able to get up and trigger the automatic alert 
+   - This button can also function as a phone or call line between the client and caregiver
+* Other suggestions:
+   - Wearable version for caregiver -- "light-emitting device as a wristband"
+   - Incorporate more than one type of light based interaction (ie blinking vs static) 
 
 ## Make it your own
 
@@ -135,5 +142,7 @@ Do last week’s assignment again, but this time:
 1) It doesn’t have to (just) use light, 
 2) You can use any modality (e.g., vibration, sound) to prototype the behaviors! Again, be creative!
 3) We will be grading with an emphasis on creativity. 
+
+For Part 2 of this lab, I focused on incorporating the client into the interaction system. 
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
