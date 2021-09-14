@@ -59,15 +59,15 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 \*\***Describe your setting, players, activity and goals here.**\*\*
 To stage the interaction with your interactive device, factors to consider:
 
-_Setting:_ A home where Lisa, a formal caregiver, is taking care of her client, John, at night. John is in his bedroom sleeping for most of the night. Lisa is either right outside his bedroom or around the house. 
+_Setting:_ A home where Lisa, a formal caregiver, is taking care of her client, John, at night. John is in his bedroom sleeping for most of the night. Lisa is somewhere in the house, often right outside John's bedroom waiting for when she may need to help John. 
 
 
-_Players:_ Lisa is the primary player as the nighttime caregiver with John being a secondary player. John lives by himself at home so 
+_Players:_ Lisa is the primary player as the nighttime caregiver with John being a secondary player.  
 
-_Activity:_ Although this is Lisa's job, this is a stressfull situation for Lisa. She stays up all night, on high alert, listening for any clues which may indicate John has woken up from his sleep and needs help: sounds of Johnn moving around, turning on a light, walking, etc... Lisa relies on sound and action based clues as she does not want to disturb John's sleep by comming into the bedroom when possible. This device helps ease the burden on Lisa by passively detects John throughout the night and lighting up when John has woken up. This 
+_Activity:_ Although this is Lisa's job, this is a stressfull situation for Lisa. She stays up all night, on high alert, listening for any clues which may indicate John has woken up from his sleep and needs help: sounds of Johnn moving around, turning on a light, walking, etc... Lisa relies on sound and action based clues as she does not want to disturb John's sleep by entering Johninto the bedroom when possible. This device helps ease the burden on Lisa by passively detects John throughout the night and lighting up when John has woken up. This 
 
 
-_Goals:_ John's family hired Lisa for safety purposes as they cannot be there at night to help John. Lisa wants to be aware of when John is not sleeping and may need assistance. John wants to continue to live at home, as independently as possible; but he may need assistance throughout the night: .   
+_Goals:_ John's family hired Lisa for safety purposes as they cannot be there at night to help John, who lives alone. Lisa wants to be aware of when John is not sleeping and may need assistance. John wants to continue to live at home, as independently as possible; but he may need assistance throughout the night.   
 
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
@@ -96,7 +96,7 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 ## Part C. Prototype the device
 
-I was not able to fully troubleshoot the Tinkerbelle tool for staging this interaction. Thus, I opted to leverage other means of changing the lights: smart lights and zoom screen sharing. 
+I was not able to fully troubleshoot the Tinkerbelle tool for staging this interaction. Thus, I opted to leverage other means of changing the lights: smart lights. 
 
 
 ## Part D. Wizard the device
@@ -150,9 +150,10 @@ For Part 2 of this lab, I focused on incorporating the client into the interacti
 - Is not able to get up out of bed but needs assistance 
 - Communicate to caregiver that help is not urgently needed 
 
-As a result, John now has a large “button” near his side table and is a primary player in the system. When John presses the button on his side table, the lights start blinking orange compared to the static orange through passive detection. The difference in the light interaction represents the urgency to Lisa. 
+As a result, John now has a large “button” near his side table and is a primary player in the system. When John presses the button on his side table, the lights start blinking orange compared to the static orange through passive detection; this difference in the light interaction represents the urgency to Lisa. 
 
 Current bed monitoring systems use loud alarms but also are plagued by false positive alarms; this ultimately ends up impacting the sleep of clients. Thus, light still remains the main modality of interaction in the system to minimize disturbances to John’s sleep. 
+
 
 \*\***Documentation of Updates **\*\*
 
