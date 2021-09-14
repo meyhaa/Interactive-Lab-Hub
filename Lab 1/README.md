@@ -150,7 +150,7 @@ For Part 2 of this lab, I focused on incorporating the client into the interacti
 - Is not able to get up out of bed but needs assistance 
 - Communicate to caregiver that help is not urgently needed 
 
-As a result, John now has a large “button” near his side table and is a primary player in the system. When John presses the button on his side table, the lights start blinking orange compared to the static orange through passive detection; this difference in the light interaction represents the urgency to Lisa. When the button is pressed, a microphone will be activated for John to speak into if desired. This allows for a two way communication platform between John and Lisa when needed. 
+As a result, John now has a large “button” near his side table and is a primary player in the system. When John presses the button on his nightstand, the lights start blinking orange compared to the static orange through passive detection; this difference in the light interaction represents the urgency to Lisa. When the button is pressed, a microphone will be activated for John to speak into if desired. This allows for a two way communication platform between John and Lisa when needed. 
 
 Current bed monitoring systems use loud alarms but also are plagued by false positive alarms; this ultimately ends up impacting the sleep of clients. Thus, light still remains the main modality of interaction in the system to minimize disturbances to John’s sleep. 
 
@@ -165,6 +165,8 @@ Storyboard of the two interactions:
 
 ![Interactions for revised storyboard](https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%201/revised_storyboard_interactions.png)
 
+Videos of the two interactions: (Note: for feasibility purposes, most of these videos were filmed during the daytime rather than nighttime as specified in the storyboard)
+
 The original iteraction of sit-out-of-bed interaction can be found [here](https://drive.google.com/file/d/1DWvN_szDh4go8i45v5cYj-FrFcgGJjQn/view?usp=sharing)
 
 The video of the added interaction from part 2 of this lab can be found [here](https://youtu.be/jM9cJD8Z-gE)
@@ -172,3 +174,5 @@ The video of the added interaction from part 2 of this lab can be found [here](h
 Future Work:
 
 During feedback sessions, my peers brought up the idea of having this device be a wearable for caregivers: a watch that would change color, blink, vibrate, and serve as a walkie-talkie. Although it would be stremlined to have a device design with all the interactions on one device, caregivers would have to change their routine to integrate wearing a wearable into their daily routines. Thus, I opted not to change the design of the interaction to be wearable based in part 2 of the lab exercise, but provides food for thought for the future. 
+
+It would also be interesting to focus more on costuming and designing the nuances of the interaction for the device on John's nightstand. The device itself could start with a dark screen but change color when movement is detected above the device. This would allow John to more easily find the button/device at night to press. There would need to be a separate button for John to indicate he needs help vs using his voice to communicate his needs with Lisa. 
