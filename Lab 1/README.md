@@ -159,7 +159,7 @@ Current bed monitoring systems use loud alarms but also are plagued by false pos
 
 Setting the scene for the storyboard:
 
-![Setting the scene for revised storyboard](https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%201/revised_storyboard_scene.jpg)
+![Setting the scene for revised storyboard](https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%201/revised_storyboard_setting.png)
 
 Storyboard of the two interactions:
 
