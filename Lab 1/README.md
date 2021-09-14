@@ -164,3 +164,7 @@ Setting the scene for the storyboard:
 Storyboard of the two interactions:
 
 ![Interactions for revised storyboard](https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%201/revised_storyboard_interactions.png)
+
+The original iteraction of sit-out-of-bed interaction can be found [here](https://drive.google.com/file/d/1DWvN_szDh4go8i45v5cYj-FrFcgGJjQn/view?usp=sharing)
+
+The video of the added interaction from part 2 of this lab can be found [here](https://youtu.be/jM9cJD8Z-gE)
