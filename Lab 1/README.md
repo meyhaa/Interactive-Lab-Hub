@@ -64,7 +64,7 @@ _Setting:_ A home where Lisa, a formal caregiver, is taking care of her client, 
 
 _Players:_ Lisa is the primary player as the nighttime caregiver with John being a secondary player.  
 
-_Activity:_ Although this is Lisa's job, this is a stressfull situation for Lisa. She stays up all night, on high alert, listening for any clues which may indicate John has woken up from his sleep and needs help: sounds of Johnn moving around, turning on a light, walking, etc... Lisa relies on sound and action based clues as she does not want to disturb John's sleep by entering Johninto the bedroom when possible. This device helps ease the burden on Lisa by passively detects John throughout the night and lighting up when John has woken up. This 
+_Activity:_ Although this is Lisa's job, this is a stressfull situation for Lisa. She stays up all night, on high alert, listening for any clues which may indicate John has woken up from his sleep and needs help: sounds of Johnn moving around, turning on a light, walking, etc... Lisa relies on sound and action based clues as she does not want to disturb John's sleep by entering John into the bedroom when possible. This device helps ease the burden on Lisa by passively detecting John throughout the night and lighting up when John has woken up.  
 
 
 _Goals:_ John's family hired Lisa for safety purposes as they cannot be there at night to help John, who lives alone. Lisa wants to be aware of when John is not sleeping and may need assistance. John wants to continue to live at home, as independently as possible; but he may need assistance throughout the night.   
@@ -170,4 +170,5 @@ The original iteraction of sit-out-of-bed interaction can be found [here](https:
 The video of the added interaction from part 2 of this lab can be found [here](https://youtu.be/jM9cJD8Z-gE)
 
 Future Work:
+
 During feedback sessions, my peers brought up the idea of having this device be a wearable for caregivers: a watch that would change color, blink, vibrate, and serve as a walkie-talkie. Although it would be stremlined to have a device design with all the interactions on one device, caregivers would have to change their routine to integrate wearing a wearable into their daily routines. Thus, I opted not to change the design of the interaction to be wearable based in part 2 of the lab exercise, but provides food for thought for the future. 
