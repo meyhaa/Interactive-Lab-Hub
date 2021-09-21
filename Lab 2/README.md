@@ -191,6 +191,12 @@ After that, Git will ask you to login to your GitHub account to push the updates
 ## Make a short video of your modified barebones PiClock
 
 \*\*\***Take a video of your PiClock.**\*\*\*
+I tweaked the clock so that the background color would change depending on the time of day. The Pi background would be yellow during the morning (7am-noon), blue during afternoon (noon-5pm), purple during the evening (5-9pm), and dark blue through nighttime (9pm-7am) Thus, it was difficult to capture a video. Here are two screenshots with the different backgrounds. 
+
+<p float="left">
+<img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%202/evening_time_color.png" height="200" />
+<img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%202/night_time_color.png" height="200">
+</p>
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
