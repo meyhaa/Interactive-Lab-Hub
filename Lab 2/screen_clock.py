@@ -30,15 +30,16 @@ disp = st7789.ST7789(
     y_offset=40,
 )
 
-# Turn on backlight
-backlight = digitalio.DigitalInOut(board.D22)
-backlight.switch_to_output()
-backlight.value = True
 # These set up the code for our buttons 
 buttonA = digitalio.DigitalInOut(board.D23)
 buttonB = digitalio.DigitalInOut(board.D24)
 buttonA.switch_to_input()
 buttonB.switch_to_input()
+
+# Turn on backlight
+backlight = digitalio.DigitalInOut(board.D22)
+backlight.switch_to_output()
+backlight.value = True
 
 # Create blank image for drawing.
 # Make sure to create image with mode 'RGB' for full color.
@@ -77,8 +78,6 @@ while True:
     draw.text((x, top), date, font=font, fill="#FFFFFF")
     draw.text((x, top+30), clock, font=font, fill="#FFFFFF")
               
-
-    shape = [(0.8*width,0.9*height), (width, height+0.33*height)]
 
     # Morning color: yellow
     if (int(strftime("%H")) >= 7 and int(strftime("%H")) < 12):
