@@ -198,7 +198,7 @@ I tweaked the clock so that the background color would change depending on the t
 <img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%202/night_time_color.png" height="300">
 </p>
 
-Here is a video of the button interaction, which is was easier to film. But in the video, the color of the Pi background is purple as it was ~8pm. Note: It's hard to identify the color background as purple in the video because of lighting; however, it looks much more purple in person. 
+Here is a video of the button interaction, which is was easier to film. When the button is pressed, an sleep emoji image is displayed. A current limitation is that the same image is displayed no matter what time of day it is. Note: In the video, the color of the Pi background is purple as it was ~8pm. But it's hard to identify the color background as purple in the video because of lighting; however, it looks much more purple in person. 
 
 [![Video with interaction](https://img.youtube.com/vi/0q_LjkkhkZo/maxresdefault.jpg)](https://youtu.be/0q_LjkkhkZo)
 
