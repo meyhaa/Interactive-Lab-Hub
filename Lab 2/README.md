@@ -231,4 +231,7 @@ Here's a video of my updated interaction:
 
 The video has a regular interaction for nighttime, as it was the current time of day, and a staged interaction for morning time. During morning (7am-noon), the background is yellow, a "Rise and Shine" message is displayed, and the button leads to a picture of the sun. In the afternoon(noon-5pm), the background is blue, a "Productivity vibes" message is displayed, and the button leads to a picture of the a emoji with star eyes. In the evening (5-10pm), the background is purple, a "Remember to take breaks" message is displayed, and the button leads to a bread emoji (reference to "Let's get this bread" meme). And finally during nighttime, the background is dark blue, a "Time to sleep" message is displayed, and the button leads to a sleep emoji. 
 
+For future work: 
+- Be able to toggle between main screen with time + text and image
+- Have a progress bar on the screen to have a more granular measurement of time within the 4 time periods (morning/afternoon/evening/night)
 
