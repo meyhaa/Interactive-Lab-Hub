@@ -6,7 +6,7 @@ import board
 import datetime
 from PIL import Image, ImageDraw, ImageFont
 from time import strftime, sleep
-from datetime import timedelta
+from datetime import timedelta, datetime
 import adafruit_rgb_display.st7789 as st7789
 
 
@@ -66,29 +66,50 @@ x = 0
 # Alternatively load a TTF font.  Make sure the .ttf font file is in the
 # same directory as the python script!
 # Some other nice fonts to try: http://www.dafont.com/bitmap.php
-font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
+font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 24)
 
 # Turn on the backlight
 backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
 
+
 while True:
     #image = Image.new("RGB", (width, height))
-    draw.rectangle((0, 0, width, height), outline=0, fill=0) #NOT WORKING - need to find a way to clear the image from the screen after button A and B are pressed
-    #draw.rectangle((0, 0, width, height), outline='black', fill=(0,0,0,255))
     y = top
-    date = "Today is: " + (strftime("%m/%d/%Y")) #displaying the date in an easy to read fashion
-    time1 = "The time is: " + (strftime("%H:%M:%S"))    #displaying the time in an easy to read fashion
-
+ 
+    backlight.value = True
+    draw.rectangle((0, 0, width, height), outline=0, fill=0)
     
-    if buttonB.value and not buttonA.value:  # just button A pressed
-        #print ("in here3")
-        image = Image.open("congrats.jpg") # set the screen to a congratulatory image
+    date = strftime("%A, %b %d") #displaying the date 
+    clock = strftime("%I:%M:%S %p")   #displaying the time
+    date2 = 'Monday, Sep 20'
+    clock2 = '08:50:08 PM'
+    
+    #draw.text((x, top), date, font=font, fill='#FFFFFF')
+    #draw.text((x, top+30), clock, font=font, fill='#FFFFFF')
+    
+    if (int(strftime("%H")) >= 7 and int(strftime("%H")) < 12):
+        draw.rectangle((0,0, width, height), outline=0, fill="#F8C22E")
+    elif (int(strftime("%H")) >= 12 and int(strftime("%H")) < 17):
+        draw.rectangle((0,0,width, height), outline=0, fill="#63CCE2")
+    elif (int(strftime("%H")) >= 17 and int(strftime("%H")) < 22):
+        draw.rectangle((0,0, width, height), outline=0, fill="#6B8BE2")
+    elif (int(strftime("%H")) >= 22 or int(strftime("%H")) < 7):
+        draw.rectangle((0,0, width, height), outline=0, fill="#1A2F57")
+    draw.text((x, top), date2, font=font, fill='#FFFFFF')
+    draw.text((x, top+30), clock2, font=font, fill='#FFFFFF')
+    
+    if not buttonA.value and buttonB.value:  # just button A pressed
+        print ("not bA and bB")
+        backlight.value=True
+        draw.rectangle((0, 0, width, height), outline=0, fill=0)
+        draw.text((x, top), date, font=font, fill='#FFFFFF')
+        draw.text((x, top+30), clock, font=font, fill='#FFFFFF')
     if buttonA.value and not buttonB.value:  # just button B pressed
-        #print ("in here4")
-        image = Image.open("motivational.jpg")  # set the screen to a motivational image
-        #draw.rectangle((0, 0, width, height), outline='black', fill=(0,0,0,255)) #clearing the image
+        print ("in here4")
+        image = Image.open("sleep.jpeg")  
+    
     backlight = digitalio.DigitalInOut(board.D22)
     backlight.switch_to_output()
     backlight.value = True
