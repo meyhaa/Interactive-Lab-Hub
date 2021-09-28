@@ -191,18 +191,22 @@ After that, Git will ask you to login to your GitHub account to push the updates
 ## Make a short video of your modified barebones PiClock
 
 \*\*\***Take a video of your PiClock.**\*\*\*
-I tweaked the clock so that the background color would change depending on the time of day. The Pi background would be yellow during the morning (7am-noon), blue during afternoon (noon-5pm), purple during the evening (5-10pm), and dark blue through nighttime (10pm-7am) Thus, it was difficult to capture a video. Here are two screenshots with the different backgrounds. 
+I tweaked the clock so that the background color would change depending on the time of day. The Pi background would be yellow during the morning (7am-noon), blue during afternoon (noon-5pm), purple during the evening (5-10pm), and dark blue through nighttime (10pm-7am) Thus, it was difficult to capture a video. Here are two screenshots with the different background colors.  
 
 <p float="left">
 <img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%202/evening_time_color.png" height="300" />
 <img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%202/night_time_color.png" height="300">
 </p>
 
+Here is a video of the button interaction, which is was easier to film. But in the video, the color of the Pi background is purple as it was ~8pm. Note: It's hard to identify the color background as purple in the video because of lighting; however, it looks much more purple in person. 
+
+[![Video with interaction](https://img.youtube.com/vi/0q_LjkkhkZo/maxresdefault.jpg)](https://youtu.be/0q_LjkkhkZo)
+
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
-For part 1, I was trying but fully figure out how to overlay/draw emojis on a Pi screen with the date and time. Thus, I would like to add a button interaction where a screen with a image of an emoji instead, which the user would get to choose.
+For part 1, I was trying to figure out how to overlay/draw emojis on a Pi screen with the date and time. However, I ran into some issues. For further interactions, I would like to add more button interactions where a screen with a different emoji image pops up for each of the time periods specified above, which the user would get to choose.
 
-![further interactions](https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%202/part_1_futher_interactions.png)
+![Further interactions](https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%202/part_1_futher_interactions.png)
 
 # Prep for Part 2
 
