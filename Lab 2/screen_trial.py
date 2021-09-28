@@ -87,7 +87,7 @@ while True:
     clock2 = '1:15:40 PM'
     clock3 = '6:30:55 PM'
     # [-15, -10, -3]
-    a = -10
+    a = -15
     
     #draw.text((x, top), date, font=font, fill='#FFFFFF')
     #draw.text((x, top+30), clock, font=font, fill='#FFFFFF')
@@ -115,7 +115,7 @@ while True:
             image = Image.open("sleep.jpeg")
             
     draw.text((x, top), date, font=font, fill='#FFFFFF')
-    draw.text((x, top+30), clock2, font=font, fill='#FFFFFF')
+    draw.text((x, top+30), clock1, font=font, fill='#FFFFFF')
     draw.text((x, top+90), message, font=font, fill='#FFFFFF')
     
     backlight = digitalio.DigitalInOut(board.D22)
