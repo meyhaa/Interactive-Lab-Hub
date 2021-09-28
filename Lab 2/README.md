@@ -224,4 +224,11 @@ As always, make sure you document contributions and ideas from others explicitly
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
 
+I was not able to view the comments from my peer reviewers on Canvas. However, I had talked to Sara Wang + Rohan Reddy as part of prelab prep and Marissa Pang + Eunsoul Choi during class lab time. Their feedback reaffirmed my initial proposal for future interactions to have 4 different emojis being displayed corresponding to the time of day. They also suggested I add a fun or motivational message on the initial screen. 
+
+Here's a video of my updated interaction: 
+[![Video with updated interaction](https://img.youtube.com/vi/NXStT5FlngE/maxresdefault.jpg)](https://youtu.be/NXStT5FlngE)
+
+The video has a regular interaction for nighttime, as it was the current time of day, and a staged interaction for morning time. During morning (7am-noon), the background is yellow, a "Rise and Shine" message is displayed, and the button leads to a picture of the sun. In the afternoon(noon-5pm), the background is blue, a "Productivity vibes" message is displayed, and the button leads to a picture of the a emoji with star eyes. In the evening (5-10pm), the background is purple, a "Remember to take breaks" message is displayed, and the button leads to a bread emoji (reference to "Let's get this bread" meme). And finally during nighttime, the background is dark blue, a "Time to sleep" message is displayed, and the button leads to a sleep emoji. 
+
 
