@@ -1,2 +1,3 @@
-# This is a comment
-print('Demo print function')
+## This line is comment
+## for demo during the class
+print("Hello World")
