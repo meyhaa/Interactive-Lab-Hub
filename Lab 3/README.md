@@ -101,11 +101,20 @@ From a remote browser on the same network, check to make sure your webserver is 
 
 Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stuck? Make a device that talks for dogs. If that is too stupid, find an application that is better than that.) 
 
-\*\***Post your storyboard and diagram here.**\*\*
-
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
 
+For Part 1 of this lab, I chose to storyboard a voice based HW assistant. This HW assistant is activated by a study mode button on the Pi. Once activated, the HW assistant asks the user to verbally list out the tasks they hope to accomplish for the day along with the amount of time they want to study. Then, the Pi will follow the  Pomodoro Technique to guide the user to study in sessions of 25 min. After every 25 minute session, there will be a 5-10 min break. After 4 of these 25 minute sessions, there will be a longer ~30 min break. During each break, the HW assistant will check in about progress, conduct breathing exercises, or voice motivational messages.  
+
+![Storyboard](https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%203/Lab3_Storyboard.png)
+
 \*\***Please describe and document your process.**\*\*
+
+I started out with this simple storyboard sketch. However, I felt I needed to better utilize post-its/cards to further communicate this voice assistant interactions. So, I updated my storyboard above by having two main components: a Pi on white colored paper and a person on purple colored paper. This allowed me to separate out the Pi and user dialogues more clearly. 
+<p float="center">
+<img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%203/Lab3_old_V1_Storyboard.png" height="350" />
+</p>
+
+
 
 ### Acting out the dialogue
 
