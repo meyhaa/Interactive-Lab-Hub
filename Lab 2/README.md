@@ -237,6 +237,8 @@ You are permitted (but not required) to work in groups and share a turn in; you 
 
 I was not able to view the comments from my peer reviewers on Canvas. However, I had talked to Sara Wang + Rohan Reddy as part of prelab prep and Marissa Pang + Eunsoul Choi during class lab time. Their feedback reaffirmed my initial proposal for future interactions to have 4 different emojis being displayed corresponding to the time of day. They also suggested I add a fun or motivational message on the initial screen. 
 
+Code for this is in screen_trial.py.
+
 Here's a video of my updated interaction: 
 [![Video with updated interaction](https://img.youtube.com/vi/NXStT5FlngE/maxresdefault.jpg)](https://youtu.be/NXStT5FlngE)
 
