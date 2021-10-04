@@ -115,12 +115,20 @@ I started out with this simple storyboard sketch. However, I felt I needed to be
 </p>
 
 
-
 ### Acting out the dialogue
 
 Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
 
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
+
+Admittedly, this was somewhat awkward to film. I used my brother as an actor. I need to work on my pretending to be a device skills. This was different than what I had imagined for a couple reasons:
+- (1) Conveying time is difficult. A significant component of my device interaction is that the Pi checks in with the user in 25 min increments (as per the Pomodoro studying method). In storyboard form, it was easy to show the passage of time between panels with a text based indicator. However, over video, it was less natural to demonstrate time had passed. And I hadn’t thought of this before recording, so I did some awkward hand motions to signal the passage of 25 minutes. 
+
+- (2) Tasks were interpreted differently. Starting with the first task, I had asked him to “List the tasks you hope to accomplish in this HW session and how long you will be studying”. I had storyboarded an example where the user responds with tasks XYZ and a X time that represents the total time of the study session. My brother answered the question by listing a task but then specifying how long he hoped to spend for each task. For example “algebra 2/trig for an hour and biology HW for an hour” VS  “algebra 2/trig and biology for a 2 hour total study session”
+
+- (3) Dialogue was more open ended. My brother was talking to me (the device) like he would a friend. He was saying a joke, complaining about hw a little, etc. His answers were not as to the point or concise as per my initial storyboard. 
+
+Overall, this was a really valuable exercise. In our storyboards, I focused too narrowly on one storyline and a set of potential responses. Even for such a simple watered down task with a handful of questions, there are so many potential variations and voice interactions. For next time, I hope to approach such video sessions more openly as a designer. In my responses back to my brother as the device, I was internally confused of what to say back because I was more focused on the technical limitations of what I COULD say back rather than focused on getting at the heart of the interaction. This was quite a rough and bare bones video, but it gave me a lot to think about when looking to design such an interaction. 
 
 ### Wizarding with the Pi (optional)
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
