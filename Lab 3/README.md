@@ -200,6 +200,8 @@ Long breaks:
 This video is an overview of the wizard-ing set up system:
 [![Video with interaction](https://img.youtube.com/vi/gITt3XY0Mh8/maxresdefault.jpg)](https://youtu.be/gITt3XY0Mh8)
 
+All the code for my implementation are in the /Pt2_Wizarding folder in this repo (the shell files + button + joystick). I also used the app.py from the /demo folder to access WoZ. 
+
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 
