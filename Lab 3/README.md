@@ -145,8 +145,18 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 ## Prep for Part 2
 
 1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
-2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
-3. Make a new storyboard, diagram and/or script based on these reflections.
+One of the main improvements is tweaking the wording to better anticipate potential misunderstandings. In the original storyboard, the Pi asks the user to list both (1) the tasks they intend to accomplish and (2) the length of time they intend to study. From the learnings with the pt.1 video, I will be breaking it up into two questions to limit the open-ended nature of the study session length question. 
+
+Furthermore, I will also be adding additional wording for the Pi to explain what it does in the storyboard use case. From the video and feedback, it was clear that new users were a little confused as to what the purpose of the Pi StudyBot was. So including some background text would help alleviate such confusion. 
+
+
+3. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
+
+Buttons can be used to (1) turn on study mode on the Pi and/or (2) indicate to the Pi that you are back from a study session. 
+
+
+4. Make a new storyboard, diagram and/or script based on these reflections.
+![Updated Storyboard](https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%203/Lab3_Pt2_updated_storyboard.png)
 
 ## Prototype your system
 
