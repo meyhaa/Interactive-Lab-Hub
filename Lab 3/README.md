@@ -149,6 +149,7 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 ## Prep for Part 2
 
 1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
+
 One of the main improvements is tweaking the wording to better anticipate potential misunderstandings. In the original storyboard, the Pi asks the user to list both (1) the tasks they intend to accomplish and (2) the length of time they intend to study. From the learnings with the pt.1 video, I will be breaking it up into two questions to limit the open-ended nature of the study session length question. 
 
 Furthermore, I will also be adding additional wording for the Pi to explain what it does in the storyboard use case. From the video and feedback, it was clear that new users were a little confused as to what the purpose of the Pi StudyBot was. So including some background text would help alleviate such confusion. 
@@ -170,6 +171,14 @@ The system should:
 * require participants to speak to it. 
 
 *Document how the system works*
+
+Here are diagrams further outlining how participants will speak and interact with the device. Beyond the initial set up conversation from the storyboard, the other main interactions are during breaks. The Pi will communicate to the user when the 25 minute session is complete and indicate what type of break it is; short breaks are 5-10 min while long breaks are 15-30 min. The Pi will also recommend activities for the user to do during the break. One suggestion is taken from the user input in the set up about favorite break time activities. The second suggestion is from a curated list of activities saved on the Pi. Here is a sample of this aspect of the the proposed conversation design. 
+
+Short breaks:
+![Short Breaks](https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%203/pt2_conversation_design_short-breaks.png)
+
+Long breaks:
+![Long Breaks](https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%203/pt2_conversation_design_long-breaks.png)
 
 *Include videos or screencaptures of both the system and the controller.*
 
