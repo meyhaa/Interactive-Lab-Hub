@@ -155,12 +155,12 @@ One of the main improvements is tweaking the wording to better anticipate potent
 Furthermore, I will also be adding additional wording for the Pi to explain what it does in the storyboard use case. From the video and feedback, it was clear that new users were a little confused as to what the purpose of the Pi StudyBot was. So including some background text would help alleviate such confusion. 
 
 
-3. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
+2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
 
 Buttons can be used to (1) turn on study mode on the Pi and/or (2) indicate to the Pi that you are back from a study session. 
 
 
-4. Make a new storyboard, diagram and/or script based on these reflections.
+3. Make a new storyboard, diagram and/or script based on these reflections.
 ![Updated Storyboard](https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%203/Lab3_Pt2_updated_storyboard.png)
 
 ## Prototype your system
@@ -193,18 +193,30 @@ I recruited Rohan Reddy ([link here](https://youtu.be/fvAqdDV8T9Q)) and Sara Wan
 Answer the following:
 
 ### What worked well about the system and what didn't?
-\*\**your answer here*\*\*
+The multimodal design of the system worked much better. For example, having users be able to press the button to indicate they are back from break worked better than having it be a fully speech oriented interaction.  
 
 ### What worked well about the controller and what didn't?
 
-\*\**your answer here*\*\*
+Staging the intial set up conversation with shell files worked well. But once I had to step in as the voice of the system, it became difficult to control and handle the multi-modal nature of the system. 
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
+My overall main takeaway from WoZ was that it allowed me to think less about the technical feasibility of the systems responses and focus more on the core of the interaction. In part 1 of the lab, especially in the video, I found it really difficult to "be the device" and not let the thoughts of technical feasibility limit my responses. But interacting with the WoZ really got the wheels turning in terms of thinking about the future works here in designing a more autonomous version of the system. 
 
-\*\**your answer here*\*\*
+Here are the main takeaways: 
+
+(1) I was really intrigued by the WoZ accelerometer visualization. Accelerometers have been documented in the literature for stress detection from smartphones and wearables. It would be really interesting to further explore ways to integrate an accelerometer sensor in the system as a way of measuring a user's stress levels.
+
+(2) It would be beneficial to automatically detect using the camera or microphone when the user is back from breaks, especially the 15-30 min longer break time frame. The proximity sensor could also be used instead. 
+
+(3) Separate web page for the initial part of the interaction: users listing out the tasks, estimating length of study session, and discussing their favorite short/long break activities. This would also allow users to not only leverage the speech recognition but also be able to edit or update their responses.
+
+(4) A screen with a timer. It would’ve been really helpful to have a screen with a dynamic timer that provides users with continuous visual feedback about the amount of time left in their session/break. This would allow for the user to be more aware of the time rather than relying on just the speech based output. 
+
+(3) and (4) could also be combined into one UI. 
+
+(5) The ultimate takeaway here is just how many moving parts autonomous systems have. Staging the interaction and pretending to be the device was enough of a challenge. 
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-\*\**your answer here*\*\*
-
+My system could be used to create a dataset of interaction for monitoring the study habits/patterns of students, as it relates to their stress levels throughout the course of a semester. It would also be interesting to see how productivity changes depending on how users interact with the device. In terms of different modalities, the acclerometer may be insightful to capture related to stress. Furthermore, the joystick sensor feels very much like a fidget toy and could be used to track restlessness. 
