@@ -172,6 +172,21 @@ The system should:
 
 *Document how the system works*
 
+This second iteration was heavily influenced by feedback from Sara Wang, Rohan Reddy, and Marissa Peng. All the updates from pt.1 (particularly with sensors) were a result of discussions with them. 
+
+Here is the overview of the system
+![Updated design](https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%203/updated_design_with_sensors.png)
+
+**Webcam**: Users will hear the text to speech from the Pi through the webcam speaker. Meanwhile, the actual webcam will be used to stream a live feed to the controller of the user interaction with the system. This coupled with the Eavesdrop feature of the Woz will allow for more flexibility in anticipating misunderstandings, especially by chance if something goes wrong with users pressing sensors. 
+
+**SparkFun Qwiic Joystick**: The joystick is be used to toggle back and forth between break activity options. Additionally, the process of moving the joystick feels similar to features of a fidget cube/toy. Thus, moving the joystick is part of the Pi’s curated short term break activities. 
+
+**SparkFun Qwiic Button Green LED**: There are two main purposes of this button: (1) turn on the Pi’s study mode and (2) for users to alert the Pi that they are back from a break. Given that the breaks have a wide time frame (ie 15-30 minutes), this will make it so the Pi does not have to perodicially check in with speech to see if the user has returned. But rather only check in with speech after the longer end of the break time is finished and the user has yet to check back in.
+
+**Adafruit Accelerometer**: The accelerometer is connected to the WoZ UI and is used as part of the Pi's curated break activities as a way to measure a user's stress levels and better tailor activity recommendations, especially for breathinng exercises. 
+
+----------------------------------------
+
 Here are diagrams further outlining how participants will speak and interact with the device. Beyond the initial set up conversation from the storyboard, the other main interactions are during breaks. The Pi will communicate to the user when the 25 minute session is complete and indicate what type of break it is; short breaks are 5-10 min while long breaks are 15-30 min. The Pi will also recommend activities for the user to do during the break. One suggestion is taken from the user input in the set up about favorite break time activities. The second suggestion is from a curated list of activities saved on the Pi. Here is a sample of this aspect of the the proposed conversation design. 
 
 Short breaks:
@@ -193,11 +208,11 @@ I recruited Rohan Reddy ([link here](https://youtu.be/fvAqdDV8T9Q)) and Sara Wan
 Answer the following:
 
 ### What worked well about the system and what didn't?
-The multimodal design of the system worked much better. For example, having users be able to press the button to indicate they are back from break worked better than having it be a fully speech oriented interaction.  
+The multimodal design of the system worked much better. For example, having users be able to press the button to indicate they are back from break worked better than having it be a fully speech oriented interaction. However, from the intial set up of the system, it was unclear to users how to use and interact with it all. Both Sara and Rohan did not interact with either the accelerometer or the joystick. The Pi vocalizes when they should be pressing the button. But the other sensors are based on certain break activities which means the Pi may not have mentioned the instructions for the other sensors. 
 
 ### What worked well about the controller and what didn't?
 
-Staging the intial set up conversation with shell files worked well. But once I had to step in as the voice of the system, it became difficult to control and handle the multi-modal nature of the system. 
+Staging the intial set up conversation with shell files worked well. But once I had to step in as the voice of the system, it became difficult to control and handle the multi-modal nature of the system. In future iterations, I would ideally combine all the sensors into one UI to more easily track when users are interacting with the sensors. 
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 My overall main takeaway from WoZ was that it allowed me to think less about the technical feasibility of the systems responses and focus more on the core of the interaction. In part 1 of the lab, especially in the video, I found it really difficult to "be the device" and not let the thoughts of technical feasibility limit my responses. But interacting with the WoZ really got the wheels turning in terms of thinking about the future works here in designing a more autonomous version of the system. 
