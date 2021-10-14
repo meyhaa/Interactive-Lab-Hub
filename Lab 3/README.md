@@ -121,6 +121,9 @@ Find a partner, and *without sharing the script with your partner* try out the d
 
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
 
+Video: 
+[![Video with interaction](https://img.youtube.com/vi/ALPBCr2PMGg/maxresdefault.jpg)](https://youtu.be/ALPBCr2PMGg)
+
 Admittedly, this was somewhat awkward to film. I used my brother as an actor. I need to work on my pretending to be a device skills. This was different than what I had imagined for a couple reasons:
 - (1) Conveying time is difficult. A significant component of my device interaction is that the Pi checks in with the user in 25 min increments (as per the Pomodoro studying method). In storyboard form, it was easy to show the passage of time between panels with a text based indicator. However, over video, it was less natural to demonstrate time had passed. And I hadn’t thought of this before recording, so I did some awkward hand motions to signal the passage of 25 minutes. 
 
