@@ -1,3 +1,6 @@
+# This is taken from the SparkFun Electronics on GitHub. Their  Qwiic_Joystick_Py repo had the following code example
+# https://github.com/sparkfun/Qwiic_Joystick_Py
+
 import qwiic_joystick
 import time
 import sys

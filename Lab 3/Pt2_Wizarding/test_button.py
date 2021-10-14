@@ -1,3 +1,7 @@
+# This was taken from SparkFun Electronics on Github from their Qwiic_Button_Py repo. 
+# This combines two of their examples: qwiic_button_ex1_buttonPress.py and qwiic_button_ex2_LEDon.py
+# https://github.com/sparkfun/Qwiic_Button_Py/tree/main/examples
+
 import qwiic_button 
 import time
 import sys
