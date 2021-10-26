@@ -174,11 +174,20 @@ You can go to the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_VL53L
 Usually, sensors need to positioned in specific locations or orientations to make them useful for their application. Now that you've tried a bunch of the sensors, pick one that you would like to use, and an application where you use the output of that sensor for an interaction. For example, you can use a distance sensor to measure someone's height if you position it overhead and get them to stand under it.
 
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
+<p float="left">
+<img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%204/Lab4_pt1_ideas1.png" height="600" />
+<img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%204/Lab4_pt1_ideas2.png" height="400" />
+</p>
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+These sketches raised the following questions for me:
+- How many options need to be included for the capacitive sensing for each scenario?
+- How long does the sensing component of the prototype need to extend from the core box with the Pi? Does the capacitive sensing component need to extend? Can it be on the same box as the Pi?
+
+I think physically prototyping will help better how to fit all the sensors and wires together in a small box-like cardboard prototype. I hope it will also help me understand what other sensors can be used to used to augment the core interaction. 
 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
-
+I am choosing to focus on Design #5, the Pi Decision Maker. 
 
 ### Part D
 ### Physical considerations for displaying information and housing parts
