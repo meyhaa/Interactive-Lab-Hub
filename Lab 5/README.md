@@ -100,6 +100,39 @@ pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 
 **\*\*\*Try each of the following four examples in the `openCV-examples`, include screenshots of your use and write about one design for each example that might work based on the individual benefits to each algorithm.\*\*\***
 
+Countours Detection:
+
+Countours detection detected the outline and borders of objects. I pointed the camera through my window to capture the Queensboro Bridge. With some refinement, I could see this being useful to artists to capture an outline of a real life picture they want to draw or recreate -- like a drawing guide with the borders highlighted. 
+
+<p float="center">
+<img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%205/lab5_pt1_countours-detection.png" height="350" />
+</p>
+
+Face Detection:
+
+Face detection detected the presence of a human real life face in the screen. I did try to trick the screen with an artistic image of a person but ultimately a face was not detected. There are so many design applications for this technology, from everyday uses to wake up our phones in the presence of a face or more complex use cases with autonomous driving cars. Another design example includes using face detection in my own project from lab 3 where I designed a Pomodoro method HW assistant where the assitant walks users through 25 min study sessions with breaks in nbetween. The face detection could be used to automatically detect if/when the user has returned from a hw break. 
+
+<p float="left">
+<img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%205/lab5_pt1_face-detection.png" height="350" />
+<img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%205/lab5_pt1_face-detection2.png" height="350" >
+</p>
+
+Optical Flow Detection
+
+This was the most confusing application of the examples here. Optical flow detection detected motion of objects between framer; however, in nmy case, multiple objects were always detected so it was hard to isolate the detection of one object's motion. One design use could be repurpose this to detect how many people walked by a certain urban landmark.
+
+<p float="center">
+<img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%205/lab5_pt1_optical-flow.png" height="350" />
+</p>
+
+Object Detection
+
+Object detection detected the presence of one or multiple objects on the screen. One design could use object detection to identify if there are objects on a screen and then run another image recognition (like the face detection from before) on just those isolated objects to be more precise. Putting things together here, object detection could be used to augment my lab 1 design of a get-out-of-bed detection system to help nighttime caregivers know when their clients have woken up and may need assistance. The objects to be detected and keep track of would be the bed, the client, and other objects (ie the caregiver, a pet, family member, etc...). Then after the client has been detected, another algorithm could be run to detect the get out of bed movement.  
+
+<p float="center">
+<img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%205/lab5_pt1_object-detection.png" height="350" />
+</p>
+
 #### MediaPipe
 
 A more recent open source and efficient method of extracting information from video streams comes out of Google's [MediaPipe](https://mediapipe.dev/), which offers state of the art face, face mesh, hand pose, and body pose detection.
