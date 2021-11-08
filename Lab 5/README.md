@@ -105,7 +105,7 @@ Countours Detection:
 Countours detection detected the outline and borders of objects. I pointed the camera through my window to capture the Queensboro Bridge. With some refinement, I could see this being useful to artists to capture an outline of a real life picture they want to draw or recreate -- like a drawing guide with the borders highlighted. 
 
 <p float="center">
-<img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%205/lab5_pt1_countours-detection.png" height="350" />
+<img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%205/pt1_images/lab5_pt1_countours-detection.png" height="350" />
 </p>
 
 Face Detection:
@@ -113,8 +113,8 @@ Face Detection:
 Face detection detected the presence of a human real life face in the screen. I did try to trick the screen with an artistic image of a person but ultimately a face was not detected. There are so many design applications for this technology, from everyday uses to wake up our phones in the presence of a face or more complex use cases with autonomous driving cars. Another design example includes using face detection in my own project from lab 3 where I designed a Pomodoro method HW assistant where the assitant walks users through 25 min study sessions with breaks in nbetween. The face detection could be used to automatically detect if/when the user has returned from a hw break. 
 
 <p float="left">
-<img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%205/lab5_pt1_face-detection.png" height="350" />
-<img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%205/lab5_pt1_face-detection2.png" height="350" >
+<img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%205/pt1_images/lab5_pt1_face-detection.png" height="350" />
+<img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%205/pt1_images/lab5_pt1_face-detection2.png" height="350" >
 </p>
 
 Optical Flow Detection
@@ -122,7 +122,7 @@ Optical Flow Detection
 This was the most confusing application of the examples here. Optical flow detection detected motion of objects between framer; however, in nmy case, multiple objects were always detected so it was hard to isolate the detection of one object's motion. One design use could be repurpose this to detect how many people walked by a certain urban landmark.
 
 <p float="center">
-<img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%205/lab5_pt1_optical-flow.png" height="350" />
+<img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%205/pt1_images/lab5_pt1_optical-flow.png" height="350" />
 </p>
 
 Object Detection
@@ -130,7 +130,7 @@ Object Detection
 Object detection detected the presence of one or multiple objects on the screen. One design could use object detection to identify if there are objects on a screen and then run another image recognition (like the face detection from before) on just those isolated objects to be more precise. Putting things together here, object detection could be used to augment my lab 1 design of a get-out-of-bed detection system to help nighttime caregivers know when their clients have woken up and may need assistance. The objects to be detected and keep track of would be the bed, the client, and other objects (ie the caregiver, a pet, family member, etc...). Then after the client has been detected, another algorithm could be run to detect the get out of bed movement.  
 
 <p float="center">
-<img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%205/lab5_pt1_object-detection.png" height="350" />
+<img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%205/pt1_images/lab5_pt1_object-detection.png" height="350" />
 </p>
 
 #### MediaPipe
@@ -169,6 +169,13 @@ Try the two main features of this script: 1) pinching for percentage control, an
 
 **\*\*\*Consider how you might use this position based approach to create an interaction, and write how you might use it on either face, hand or body pose tracking.\*\*\***
 
+This was interesting and quite impressive to play around with. This could be used to detect a humann wave and wake up a device. It would also be interesting to see how this hand movement tracking can be applied to help people who use sign language. Or perhaps a platform that helps students learn ASL and provide real time feedback based on their hand gestures. 
+
+<p float="left">
+<img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%205/pt1_images/lab5_pt1_mpipe.png" height="250" />
+<img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%205/pt1_images/lab5_pt1_mpipe_percentage-control.png" height="250" >
+</p>
+
 (You might also consider how this notion of percentage control with hand tracking might be used in some of the physical UI you may have experimented with in the last lab, for instance in controlling a servo or rotary encoder.)
 
 
@@ -204,6 +211,14 @@ This might take a while to get fully installed. After installation, connect your
 (**Optionally**: You can train your own model, too. First, visit [TeachableMachines](https://teachablemachine.withgoogle.com/train), select Image Project and Standard model. Second, use the webcam on your computer to train a model. For each class try to have over 50 samples, and consider adding a background class where you have nothing in view so the model is trained to know that this is the background. Then create classes based on what you want the model to classify. Lastly, preview and iterate, or export your model as a 'Tensorflow' model, and select 'Keras'. You will find an '.h5' file and a 'labels.txt' file. These are included in this labs 'teachable_machines' folder, to make the PPE model you used earlier. You can make your own folder or replace these to make your own classifier.)
 
 **\*\*\*Whether you make your own model or not, include screenshots of your use of Teachable Machines, and write how you might use this to create your own classifier. Include what different affordances this method brings, compared to the OpenCV or MediaPipe options.\*\*\***
+
+I ran the example model which classifies mask or no mask. It was also innteresting to see where this model does not perform as intended, as covering your face with your hand also gets classified as a mask. Overall, this was a super cool example to run because it allowed for affordances that we more granular than the previous examples. Here this model is able to (1) detect the presence of object (object detection), (2) identify that one of those objects is a face similar (face detection), and (3) then go one step further to classify where there is a mask object on top of the face. Compared to OpenCV, especially, this method allowed for more complex tasks and simultaneous detections. Compared to MediaPipe, Teachable Machines facilitated a more general set of affordances while MediaPipe was more specialized by focusinng on hand movement and percentage control.
+
+<p float="left">
+<img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%205/pt1_images/lab5_pt1_teachable-machines-mask.png" height="250" />
+<img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%205/pt1_images/lab5_pt1_teachable-machines-no-mask.png" height="250" />
+<img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%205/pt1_images/lab5_pt1_teachable-machines-hand-cover.png" height="250" >
+</p>
 
 
 *Don't forget to run ```deactivate``` to end the Teachable Machines demo, and to reactivate with ```source tmachine/bin/activate``` when you want to use it again.*
