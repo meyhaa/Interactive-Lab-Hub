@@ -105,7 +105,7 @@ Countours Detection:
 Countours detection detected the outline and borders of objects. I pointed the camera through my window to capture the Queensboro Bridge. With some refinement, I could see this being useful to artists to capture an outline of a real life picture they want to draw or recreate -- like a drawing guide with the borders highlighted. 
 
 <p float="center">
-<img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%205/pt1_images/lab5_pt1_countours-detection.png" height="350" />
+<img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%205/pt1_images/lab5_pt1_countours-detection.png" height="250" />
 </p>
 
 Face Detection:
@@ -113,8 +113,8 @@ Face Detection:
 Face detection detected the presence of a human real life face in the screen. I did try to trick the screen with an artistic image of a person but ultimately a face was not detected. There are so many design applications for this technology, from everyday uses to wake up our phones in the presence of a face or more complex use cases with autonomous driving cars. Another design example includes using face detection in my own project from lab 3 where I designed a Pomodoro method HW assistant where the assitant walks users through 25 min study sessions with breaks in nbetween. The face detection could be used to automatically detect if/when the user has returned from a hw break. 
 
 <p float="left">
-<img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%205/pt1_images/lab5_pt1_face-detection.png" height="350" />
-<img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%205/pt1_images/lab5_pt1_face-detection2.png" height="350" >
+<img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%205/pt1_images/lab5_pt1_face-detection.png" height="250" />
+<img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%205/pt1_images/lab5_pt1_face-detection2.png" height="250" >
 </p>
 
 Optical Flow Detection
@@ -122,7 +122,7 @@ Optical Flow Detection
 This was the most confusing application of the examples here. Optical flow detection detected motion of objects between framer; however, in nmy case, multiple objects were always detected so it was hard to isolate the detection of one object's motion. One design use could be repurpose this to detect how many people walked by a certain urban landmark.
 
 <p float="center">
-<img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%205/pt1_images/lab5_pt1_optical-flow.png" height="350" />
+<img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%205/pt1_images/lab5_pt1_optical-flow.png" height="250" />
 </p>
 
 Object Detection
@@ -247,21 +247,46 @@ Try out different interaction outputs and inputs.
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
 
+I went with my aforementioned example from the face detection example above: using face detection to augment my own project from lab 3 where I designed a Pomodoro method HW assistant. The assitant walks users through 25 min study sessions with breaks in nbetween. The face detection could be used to automatically detect if/when the user has returned from a hw break. In other words, this is an at desk vs away from desk classification task. 
+
+
 ### Part C
 ### Test the interaction prototype
 
 Now flight test your interactive prototype and **note down your observations**:
 For example:
-1. When does it what it is supposed to do?
-1. When does it fail?
-1. When it fails, why does it fail?
-1. Based on the behavior you have seen, what other scenarios could cause problems?
+1. When does it do what it is supposed to do?
+
+The model works best either when you are sitting and close to the screen (at desk) or away in the background (away from desk).
+
+2. When does it fail?
+
+It fails when you stand up perfectly in frame in the background. 
+
+3. When it fails, why does it fail?
+
+From the training images, the model has determined certain input features which inform its classification. None of the images in the training set involved me fully standing right behind the chair with my hands closer in frame. Since the model had not seen such a configuration in trainig, the model failed. 
+
+4. Based on the behavior you have seen, what other scenarios could cause problems?
+
+One scenario includes when more than one person is in frame or someone else sits down in the desk. This model was not also trained to differentiate between faces. 
+
+Another scenario includes when the user stays in their desk during the course of their break. The entire point of the at-desk and away-from-desk detection was to serve as a proxy for the user being away from their desk on a break. But user behavior may vary. 
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 1. Are they aware of the uncertainties in the system?
-1. How bad would they be impacted by a miss classification?
-1. How could change your interactive system to address this?
-1. Are there optimizations you can try to do on your sense-making algorithm.
+
+No, users are not made aware of the uncertainties or limitations of the system.
+
+2. How bad would they be impacted by a miss classification?
+
+Since the device is a HW assistant, a misclassification does not have a significant negative impact. The Pi may be prompted to mistakenly ask the user if they are back from their break. 
+
+3. How could change your interactive system to address this?
+
+The impact of missed classifications can also be alleviated by the design of the resulting interaction or a multimodal system where automatic detection is not the only form of feedback. We could have a voice based response confirming the user's return or a button as well. 
+
+4. Are there optimizations you can try to do on your sense-making algorithm.
 
 ### Part D
 ### Characterize your own Observant system
