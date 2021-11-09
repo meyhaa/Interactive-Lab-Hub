@@ -130,7 +130,7 @@ Object Detection
 Object detection detected the presence of one or multiple objects on the screen. One design could use object detection to identify if there are objects on a screen and then run another image recognition (like the face detection from before) on just those isolated objects to be more precise. Putting things together here, object detection could be used to augment my lab 1 design of a get-out-of-bed detection system to help nighttime caregivers know when their clients have woken up and may need assistance. The objects to be detected and keep track of would be the bed, the client, and other objects (ie the caregiver, a pet, family member, etc...). Then after the client has been detected, another algorithm could be run to detect the get out of bed movement.  
 
 <p float="center">
-<img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%205/pt1_images/lab5_pt1_object-detection.png" height="350" />
+<img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%205/pt1_images/lab5_pt1_object-detection.png" height="250" />
 </p>
 
 #### MediaPipe
@@ -249,6 +249,10 @@ Try out different interaction outputs and inputs.
 
 I went with my aforementioned example from the face detection example above: using face detection to augment my own project from lab 3 where I designed a Pomodoro method HW assistant. The assitant walks users through 25 min study sessions with breaks in nbetween. The face detection could be used to automatically detect if/when the user has returned from a hw break. In other words, this is an at desk vs away from desk classification task. 
 
+<p float="left">
+<img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%205/lab5_pt1_simple_storyboard.png" height="450" />
+</p>
+
 
 ### Part C
 ### Test the interaction prototype
@@ -286,7 +290,8 @@ Since the device is a HW assistant, a misclassification does not have a signific
 
 The impact of missed classifications can also be alleviated by the design of the resulting interaction or a multimodal system where automatic detection is not the only form of feedback. We could have a voice based response confirming the user's return or a button as well. 
 
-4. Are there optimizations you can try to do on your sense-making algorithm.
+I can also experiment with the positioning of the Pi camera; a wider angle can capture a more input rich image for training and classification. 
+
 
 ### Part D
 ### Characterize your own Observant system
@@ -294,11 +299,31 @@ The impact of missed classifications can also be alleviated by the design of the
 Now that you have experimented with one or more of these sense-making systems **characterize their behavior**.
 During the lecture, we mentioned questions to help characterize a material:
 * What can you use X for?
+
+Used for automatically detecting when HW assistant user is in their desk studying vs away from their desk taking a break.
+
 * What is a good environment for X?
+
+A good environment would be in the user's room and on their desk with nobody else in the room.
+
 * What is a bad environment for X?
+
+A bad environment would be in a more communal study space with lots of movement.
+
 * When will X break?
+
+The system will break when users are sometimes standing very close but still in the background.
+
 * When it breaks how will X break?
+
+The Pi will break if the user never leaves their desk during their break; it will mistakenly ask the user if they are back from their break. It will also break in certain cases when the user is hovering over their desk very closely. 
+
 * What are other properties/behaviors of X?
+
+
+
+
+
 * How does X feel?
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
