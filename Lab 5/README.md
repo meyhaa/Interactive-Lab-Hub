@@ -349,3 +349,17 @@ Here is a video of this simple interaction.
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
+
+Here is a video of a more implemented interaction -- building off the idea from my work in lab 3 with the HW assistant. This video demonstrates the use of this break-time detection model within the larger context of the HW assistant interaction. So we start with the HW assistant guiding the user through a 25 min Pomodoro method work session. For the purposes of the video, the session does not actually last 25 minutes. Then the assistant communicates that it is time for a break and asks the user if they'd like to complete a brething exercise. When the user leaves the desk, the predicted location changes to "Not at Desk". When the user returns, the HW assistant asks if the user wants to resume with the next 25 min session. 
+
+[![Video with interaction](https://img.youtube.com/vi/jg_Yzp4fyYE/maxresdefault.jpg)](https://youtu.be/jg_Yzp4fyYE)
+
+Future Work:
+
+Upon exploration/reflection and the limited implementation here, there is a lot of room for improvement. 
+
+First, I ran into a number of challenges. Training the model to work equally well in different lighting conditions was a challenge. This was especially apparent when testing using my laptop's camera vs the Pi's external camera. Certain use cases, mentioned above in where the model breaks, were working better when testing the model in my browser since the quality of the camera and lighting was better. So it would be beneficial to optimize this model more for the Pi's camera.
+
+Second, writing a number of different shell scripts for each of the Pi HW Assistant's potential responses got seemingly inefficient with so many individual files. It would be interesting to explore how text-to-speech can be more elegantly programmed. 
+
+Third, the ultimate goal of future work is to fully integrate this model with the design from my lab 3 HW assistant -- sensors included. It would be especially beneficial to work on a multi-modal interaction system with not only this model but also a button for the user to provide feedback and interact. 
