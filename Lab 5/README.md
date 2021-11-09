@@ -263,13 +263,33 @@ For example:
 
 The model works best either when you are sitting and close to the screen (at desk) or away in the background (away from desk).
 
+<p float="left">
+<img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%205/pt1_images/lab5_pt1_teachable-machines-good-environment.png" height="450" />
+</p>
+
+The at desk classification also works when you are close to the screen but only partially. 
+
+<p float="left">
+<img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%205/pt1_images/lab5_pt1_teachable-machines-at-desk.png" height="300" />
+</p>
+
+The not at desk classification also works when you are directly standing up in front of the screen or in the background.
+
+<p float="left">
+<img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%205/pt1_images/lab5_pt1_teachable-macines-not-at-desk.png" height="300" />
+</p>
+
 2. When does it fail?
 
-It fails when you stand up perfectly in frame in the background. 
+It fails when you have partially stood up or are in the background but make arm movements in frame. 
+
+<p float="left">
+<img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%205/pt1_images/lab5_pt1_teachable-machines-desk-confusion.png" height="300" />
+</p>
 
 3. When it fails, why does it fail?
 
-From the training images, the model has determined certain input features which inform its classification. None of the images in the training set involved me fully standing right behind the chair with my hands closer in frame. Since the model had not seen such a configuration in trainig, the model failed. 
+From the training images, the model has determined certain input features which inform its classification. None of the images in the training set involved me fully standing right behind the chair with my hands closer in frame. Since the model had not seen such a configuration in training, the model failed. 
 
 4. Based on the behavior you have seen, what other scenarios could cause problems?
 
@@ -304,7 +324,7 @@ Used for automatically detecting when HW assistant user is in their desk studyin
 
 * What is a good environment for X?
 
-A good environment would be in the user's room and on their desk with nobody else in the room.
+A good environment would be in the user's room and on their desk with nobody else in the room. The camera is positioned right on the user's laptop as it does not obstruct their work but is in the ideal position to detect if they are at their desk.
 
 * What is a bad environment for X?
 
@@ -318,15 +338,11 @@ The system will break when users are sometimes standing very close but still in 
 
 The Pi will break if the user never leaves their desk during their break; it will mistakenly ask the user if they are back from their break. It will also break in certain cases when the user is hovering over their desk very closely. 
 
-* What are other properties/behaviors of X?
-
-
-
-
-
-* How does X feel?
-
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
+
+Here is a video of this simple interaction.
+
+[![Video with interaction](https://img.youtube.com/vi/uYpdgj5M1pw/maxresdefault.jpg)](https://youtu.be/uYpdgj5M1pw)
 
 ### Part 2.
 
