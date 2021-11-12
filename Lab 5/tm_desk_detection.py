@@ -1,4 +1,3 @@
-
 #This example is directly copied from the Tensorflow examples provided from the Teachable Machine.
 
 import tensorflow.keras
@@ -6,7 +5,10 @@ from PIL import Image, ImageOps
 import numpy as np
 import cv2
 import sys
+import subprocess
+from time import sleep
 
+subprocess.call(['sh','./shell_scripts/start_first_session.sh'])
 
 # Disable scientific notation for clarity
 np.set_printoptions(suppress=True)
@@ -33,17 +35,25 @@ else:
 
 
 # Load the model
-model = tensorflow.keras.models.load_model('keras_model.h5')
+model = tensorflow.keras.models.load_model('desk_keras_model.h5')
+
 # Load Labels:
 labels=[]
-f = open("labels.txt", "r")
+f = open("desk_labels.txt", "r")
 for line in f.readlines():
     if(len(line)<1):
         continue
-    labels.append(line.split(' ')[1].strip())
-
-
-while(True):
+    full_label = ' '.join(line.split(' ')[1:]).strip()
+    print(full_label)
+    labels.append(full_label)
+    
+subprocess.call(['sh','./shell_scripts/first_session_complete.sh'])
+sleep(2)
+subprocess.call(['sh','./shell_scripts/start_break.sh'])
+previous_prediction = ''
+break_time = True
+away = False
+while(break_time):
     if webCam:
         ret, img = cap.read()
 
@@ -62,7 +72,16 @@ while(True):
 
     # run the inference
     prediction = model.predict(data)
-    print("I think its a:",labels[np.argmax(prediction)])
+    if labels[np.argmax(prediction)] != previous_prediction:
+        previous_prediction = labels[np.argmax(prediction)]
+        print("Predicted Location:",labels[np.argmax(prediction)])
+    if labels[np.argmax(prediction)] == 'Not at Desk':
+        away = True
+    if away and labels[np.argmax(prediction)] == 'Desk':
+        subprocess.call(['sh','./shell_scripts/end_break.sh'])
+        sleep(2)
+        subprocess.call(['sh','./shell_scripts/resume_tasks_HW_helper.sh'])
+        break_time = False
 
     if webCam:
         if sys.argv[-1] == "noWindow":
