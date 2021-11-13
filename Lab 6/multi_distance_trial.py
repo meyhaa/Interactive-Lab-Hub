@@ -22,14 +22,14 @@ while True:
 		time.sleep(1)
 		ToF.stop_ranging()
 		if abs(previous_distance - distance) > 350:
-            if (distance < 600):
-                status = 'Out of bed'
-            else:
-                status = 'In bed'
-            print('Client Status: ' + status)
+			if (distance < 600):
+				status = 'Out of bed'
+			else:
+				status = 'In bed'
+
+			print('Client Status: ' + status)
 
 		#print("Distance(mm): %s" % (distance))
 		
-
 	except Exception as e:
 		print(e)
