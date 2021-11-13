@@ -7,6 +7,23 @@
 import qwiic
 import time
 
+
+import paho.mqtt.client as mqtt
+import uuid
+
+
+
+client = mqtt.Client(str(uuid.uuid1()))
+client.tls_set()
+client.username_pw_set('idd', 'device@theFarm')
+
+client.connect(
+    'farlab.infosci.cornell.edu',
+    port=8883)
+
+topic = 'IDD/mb/multi-distance'
+
+
 print("VL53L1X Qwiic Test\n")
 ToF = qwiic.QwiicVL53L1X()
 if (ToF.sensor_init() == None):					 # Begin returns 0 on a good init
@@ -28,7 +45,7 @@ while True:
 				status = 'In bed'
 			previous_distance = distance
 			print('Client Status: ' + status)
-
+			client.publish(topic, status)
 		#print("Distance(mm): %s" % (distance))
 		
 	except Exception as e:
