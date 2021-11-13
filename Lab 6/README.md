@@ -106,9 +106,14 @@ Plug in the capacitive sensor board with the Qwiic connector. Use the alligator 
  ```
 
 **\*\*\*Include a picture of your setup here: what did you see on MQTT Explorer?\*\*\***
+<p float="left">
+<img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%206/imgs/demo_twizzlers.png" height="350" />
+</p>
 
 **\*\*\*Pick another part in your kit and try to implement the data streaming with it.\*\*\***
-
+<p float="left">
+<img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%206/imgs/trial_accelerometer.png" height="350" />
+</p>
 
 ### Part D
 ### The One True ColorNet
