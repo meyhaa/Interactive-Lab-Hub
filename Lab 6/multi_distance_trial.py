@@ -26,7 +26,7 @@ while True:
 				status = 'Out of bed'
 			else:
 				status = 'In bed'
-
+			previous_distance = distance
 			print('Client Status: ' + status)
 
 		#print("Distance(mm): %s" % (distance))
