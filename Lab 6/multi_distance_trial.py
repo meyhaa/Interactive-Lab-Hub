@@ -21,7 +21,7 @@ client.connect(
     'farlab.infosci.cornell.edu',
     port=8883)
 
-topic = 'IDD/mb/multi-distance'
+topic = 'IDD/syw/multi-distance'
 
 
 print("VL53L1X Qwiic Test\n")
