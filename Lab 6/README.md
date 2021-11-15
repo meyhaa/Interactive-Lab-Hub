@@ -211,6 +211,16 @@ Communicating patient needs remotely allows the caregiver to respond more quickl
 
 **\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
 
+We incorporated the three features (as escribed above) into the working prototype of our remote patient sensing monitoring system. As our system is specifically designed to bridge the gap between patient and caregiver, we implemented both patient-facing and caregiver-facing interfaces into our prototype. 
+
+As described above, we designed a patient-facing sensing environment that collects inputs from the patient and relays them to the care team. One particular interface (please see below) consists of a cardboard UI prototype that allows patients to relay their needs to the care team at a press of a button. The prototype contains 6 labeled buttons corresponding to common patient needs. When a button is pressed, the specific request is relayed to a care team member who can then efficiently respond to the request. Also included in the UI prototype is a larger 7th button labeled 'Emergency'. In the event that a patient requires urgent attention, they may press this button which will send an SOS request to the care team.
+
+We also utilized a distance sensor to implement out-of-bed detection capabilities that relays an alert to the care team when a patient has moved from their bed. The distance sensor is conspicuously placed and only requires a user to get out of bed to activate. 
+
+The caregiver-facing interface is a centralized system that continuously monitors the patient and relays outputs to the care team. When a patient submits a request through the patient-facing interface, the caregiver is alerted in two ways. First, an alert pops up on a screen that displays what the request was, and a green or red LED lights up depending on the nature of the request (green - general requests, red - SOS). Once the caregiver has responded to the request, they can come back and press the corresponding LED button to signal that the request(s) have been answered, at which point the LED light turns off. We believe requiring the caregiver to consciously input when requests have been completed will ensure that patient requests do not go unnoticed. In a similar way, the caregiver will bo notified on the screen when a patient has gotten out of bed. 
+
+Please see the videos below for both a video based description of our prototype as well as a video of the prototype in action. 
+
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
 
 <!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->
