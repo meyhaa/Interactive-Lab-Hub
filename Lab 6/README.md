@@ -222,9 +222,27 @@ We also utilized a distance sensor to implement out-of-bed detection capabilitie
 
 The caregiver-facing interface is a centralized system that continuously monitors the patient and relays outputs to the care team. When a patient submits a request through the patient-facing interface, the caregiver is alerted in two ways. First, an alert pops up on a screen that displays what the request was, and a green or red LED lights up depending on the nature of the request (green - general requests, red - SOS). Once the caregiver has responded to the request, they can come back and press the corresponding LED button to signal that the request(s) have been answered, at which point the LED light turns off. We believe requiring the caregiver to consciously input when requests have been completed will ensure that patient requests do not go unnoticed. In a similar way, the caregiver will bo notified on the screen when a patient has gotten out of bed. 
 
+![alt text](https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%206/imgs/caregiver-interface.jpg)
+
 Please see the videos below for both a video based description of our prototype as well as a video of the prototype in action. 
 
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
+
+The following 3 videos explain how our remote patient monitoring system enables effective communication between patients and caregivers
+
+Out-of-bed detection: https://drive.google.com/file/d/1npoHy9gu62fRfPHu4zFFH5RJ68j2SCbB/view?usp=sharing
+
+Cardboard UI Prototype for Patient Requests: https://drive.google.com/file/d/1E--pV_5cNh3vA555G9R6MHc_kum3ucaA/view?usp=sharing
+
+How requests are relayed from patient to caregiver: https://drive.google.com/file/d/1maOZJk_9knsN3TTetw95zCp5RNV9wX44/view?usp=sharing
+
+These 3 videos demonstrate our prototype in action, showcasing improved effectiveness of caregiver response to patient needs and requests:
+
+Patient out-of-bed example: https://drive.google.com/file/d/1rcQD-gEz8ysPhYduCL9qxLKbQT172YYB/view?usp=sharing
+
+Patient SOS example: https://drive.google.com/file/d/1IVk1-GZMK5CLcQODt3C4wo8cfF9EuivQ/view?usp=sharing
+
+Patient medication request example: https://drive.google.com/file/d/1IVk1-GZMK5CLcQODt3C4wo8cfF9EuivQ/view?usp=sharing
 
 <!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->
 
