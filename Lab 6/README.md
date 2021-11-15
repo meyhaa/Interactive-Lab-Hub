@@ -166,6 +166,12 @@ Find at least one class (more are okay) partner, and design a distributed applic
 
 **\*\*\*1. Explain your design\*\*\*** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
 
+We designed a remote patient sensing and monitoring tool that combines passive (multi-distance sensor) and active (capacitator) patient sensing to support caregivers in their work. The caregiver interface includes a screen display to indicate information about what is being sensed on the patient end, as well as interactive buttons that light up to indicate when a non-emergency or emergency request is made, and when pressed, allow the caregiver to indicate they have addressed the request.
+
+Our application is focused on addressing scenarios where patients may have some level of mobility restriction and the caregiver may not be present in the same immediate space or room as the patient. For example, this could apply to overnight caregivers who need to be responsive to the patient's status overnight. The patient may wake up and need assistance getting out of bed and going to the bathroom, require water or medication, or even have an emergency situation. In this case, they can actively notify the caregiver they need assistance by using customized 'buttons' for their request that leverage the capacitator. The patient may attempt to get out of bed without notifying the caregiver. Depending on the patient's condition and fall risk, this could be dangerous. An alert based on distance sensor thresholds allows the caregiver to check in on the patient and see if they need assistance.
+
+Communicating patient needs remotely allows the caregiver to respond more quickly and efficiently while also affording the patient some additional privacy. Furthermore, the system reduces the burden on the caregiver to be both physically bound to a particular location and constantly on alert (e.g. sitting by the patient's room, listening for changes) by visually notifying the caregiver when assistance is required. This could allow the caregiver to complete other tasks in a different location of the patient's home.
+
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
 
 <p float="left">
