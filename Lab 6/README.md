@@ -222,7 +222,9 @@ We also utilized a distance sensor to implement out-of-bed detection capabilitie
 
 The caregiver-facing interface is a centralized system that continuously monitors the patient and relays outputs to the care team. When a patient submits a request through the patient-facing interface, the caregiver is alerted in two ways. First, an alert pops up on a screen that displays what the request was, and a green or red LED lights up depending on the nature of the request (green - general requests, red - SOS). Once the caregiver has responded to the request, they can come back and press the corresponding LED button to signal that the request(s) have been answered, at which point the LED light turns off. We believe requiring the caregiver to consciously input when requests have been completed will ensure that patient requests do not go unnoticed. In a similar way, the caregiver will bo notified on the screen when a patient has gotten out of bed. 
 
-![alt text](https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%206/imgs/caregiver-interface.jpg)
+<p float="left">
+  <img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%206/imgs/caregiver-interface.jpg" height="450" />
+</p>
 
 Please see the videos below for both a video based description of our prototype as well as a video of the prototype in action. 
 
