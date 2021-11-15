@@ -156,6 +156,41 @@ Find at least one class (more are okay) partner, and design a distributed applic
 
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
 
+<p float="left">
+  <img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%206/imgs/Lab6_Design.png" height="450" />
+</p>
+
+**Feature 1: Out of Bed Detection**
+
+- Input: The Qwiic Multi Distance Sensor is placed on the user’s bed frame. 
+
+- Computation: When the user gets out of bed, the distance from the sensor to closet reduces as the user’s feet is in between.  In turn Raspberry Pi 1 publishes a message to MQTT: “Out of Bed”.
+
+- Output: Raspberry Pi 2 reads the MQTT value and displays a message in the Adafruit Mini PiTFT to help the client and the green LED in the Qwiic button is turned on. 
+
+- Other interaction: If the light is turned on and then the green LED Qwiic button is pressed, the green light is turned off. This is for the caregiver to indicate they have checked in with the client. 
+
+**Feature 2: Buttons for Different Requests**
+
+- Input: In the cardboard UI prototype, there are small buttons made out of copper foil tape and connected to the 12-key capacitive touch sensor by alligator clips.
+
+- Computation: When the user presses one of these buttons, Raspberry Pi 3 publishes messages to MQTT with the corresponding request (ie water). 
+
+- Output: Raspberry Pi 2 reads the MQTT value and displays a message with the specific request in the Adafruit Mini PiTFT and the green LED in the Qwiic button is turned on. 
+
+- Other interaction: If the light is turned on and then the green LED Qwiic button is pressed, the green light is turned off. This is for the caregiver to provide indicate they have taken care of the task. 
+
+**Feature 3: Emergency Situation**
+
+- Input: In the cardboard UI prototype, there is a singular large button made out of copper foil tape and connected to the 12-key capacitive touch sensor by alligator clips.
+
+- Computation: When the user presses the large “Emergency” buttons, Raspberry Pi 3 publishes an emergency messages to MQTT.
+
+- Output:  Raspberry Pi 2 reads the MQTT value and displays an emergency message in the Adafruit Mini PiTFT and the red LED in the Qwiic button is turned on. 
+
+- Other interaction: If the light is turned on and then the red LED Qwiic button is pressed, the red light is turned off. This is for the caregiver to indicate they have checked in on the safety and wellbeing of the client. 
+
+
 **\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
 
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
