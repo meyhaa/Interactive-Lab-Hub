@@ -156,6 +156,8 @@ Of course not! You can go to [https://one-true-colornet.glitch.me/](https://one-
 
 **\*\*\*Can you set up the script that can read the color anyone else publish and display it on your screen?\*\*\***
 
+See [my_color.py](./my_color.py)
+We added functionality to allow the user to specify the topic to subscribe/publish to. The default is to use IDD/colors.
 
 ### Part E
 ### Make it your own
