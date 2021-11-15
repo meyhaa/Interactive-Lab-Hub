@@ -86,6 +86,16 @@ Once connected, you should be able to see all the messages under the IDD topic. 
 
 **\*\*\*Consider how you might use this messaging system on interactive devices, and draw/write down 5 ideas here.\*\*\***
 
+1. **A remote patient sensing and care system.** Takes inputs of info from sensors -- movement, a fall, light change, button input -- and alerts a caregiver who may be in another room, potentially managing multiple patients.
+
+2. **Security and monitoring systems.** E.g. a baby monitor that takes in audio and video input and provides alerts and notifications to a caretaker who may be in another room.
+
+3. **Tool to help manage plant care throughout a household.** Sensing water level, nitrogen/fertilizer, light level in the environment. Provides alerts to user for different plants in the space.
+
+4. **Virtual charades/pictionary.** The user whose turn it is presses a button that tells the system it's their turn. The system only displays random prompts to that user. Button inputs could also be used to see who guesses first. A timer could keep all users synchronized.
+
+5. **Virtual quiz game/trivia.** Capacitative sensors could be used for multiple choice style options. Who ever selects the correct option first wins that round. System identifies who the winner is based on timing of input for each round and the correct answer.
+
 ### Part C
 ### Streaming a Sensor
 
