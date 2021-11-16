@@ -218,7 +218,7 @@ There is a growing body of literature on different algorithms that leverage stat
 
 **\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
 
-We incorporated the three features (as escribed above) into the working prototype of our remote patient sensing monitoring system. As our system is specifically designed to bridge the gap between patient and caregiver, we implemented both patient-facing and caregiver-facing interfaces into our prototype. 
+We incorporated the three features (as described above) into the working prototype of our remote patient sensing monitoring system. As our system is specifically designed to bridge the gap between patient and caregiver, we implemented both patient-facing and caregiver-facing interfaces into our prototype. See [final_code folder](./final_code).
 
 As described above, we designed a patient-facing sensing environment that collects inputs from the patient and relays them to the care team. One particular interface (please see below) consists of a cardboard UI prototype that allows patients to relay their needs to the care team at a press of a button. The prototype contains 6 labeled buttons corresponding to common patient needs. When a button is pressed, the specific request is relayed to a care team member who can then efficiently respond to the request. Also included in the UI prototype is a larger 7th button labeled 'Emergency'. In the event that a patient requires urgent attention, they may press this button which will send an SOS request to the care team.
 
