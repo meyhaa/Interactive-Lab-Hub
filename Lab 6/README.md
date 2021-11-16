@@ -182,7 +182,7 @@ There is a growing body of literature on different algorithms that leverage stat
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
 
 <p float="left">
-  <img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%206/imgs/Lab6_Design.png" height="450" />
+  <img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%206/imgs/Lab6_Design.png" height="550" />
 </p>
 
 **Feature 1: Out of Bed Detection**
