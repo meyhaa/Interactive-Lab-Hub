@@ -121,6 +121,10 @@ Plug in the capacitive sensor board with the Qwiic connector. Use the alligator 
 </p>
 
 **\*\*\*Pick another part in your kit and try to implement the data streaming with it.\*\*\***
+
+
+We chose to implement the accelerometer. See [accelerometer_sender.py](./accelerometer_sender.py)
+
 <p float="left">
 <img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%206/imgs/trial_accelerometer.png" height="350" />
 </p>
@@ -218,7 +222,15 @@ We incorporated the three features (as escribed above) into the working prototyp
 
 As described above, we designed a patient-facing sensing environment that collects inputs from the patient and relays them to the care team. One particular interface (please see below) consists of a cardboard UI prototype that allows patients to relay their needs to the care team at a press of a button. The prototype contains 6 labeled buttons corresponding to common patient needs. When a button is pressed, the specific request is relayed to a care team member who can then efficiently respond to the request. Also included in the UI prototype is a larger 7th button labeled 'Emergency'. In the event that a patient requires urgent attention, they may press this button which will send an SOS request to the care team.
 
+<p float="left">
+  <img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%206/imgs/cardboard_ui_prototype.png" height="450" />
+</p>
+
 We also utilized a distance sensor to implement out-of-bed detection capabilities that relays an alert to the care team when a patient has moved from their bed. The distance sensor is conspicuously placed and only requires a user to get out of bed to activate. 
+
+<p float="left">
+    <img src="https://github.com/meyhaa/Interactive-Lab-Hub/blob/Fall2021/Lab%206/imgs/out_of_bed_detection_setup.png" height="450" />
+</p>
 
 The caregiver-facing interface is a centralized system that continuously monitors the patient and relays outputs to the care team. When a patient submits a request through the patient-facing interface, the caregiver is alerted in two ways. First, an alert pops up on a screen that displays what the request was, and a green or red LED lights up depending on the nature of the request (green - general requests, red - SOS). Once the caregiver has responded to the request, they can come back and press the corresponding LED button to signal that the request(s) have been answered, at which point the LED light turns off. We believe requiring the caregiver to consciously input when requests have been completed will ensure that patient requests do not go unnoticed. In a similar way, the caregiver will bo notified on the screen when a patient has gotten out of bed. 
 
