@@ -38,15 +38,18 @@ while True:
 		distance = ToF.get_distance()	 # Get the result of the measurement from the sensor
 		time.sleep(1)
 		ToF.stop_ranging()
-		if abs(previous_distance - distance) > 350:
-			if (distance < 600):
-				status = 'Out of bed'
-			else:
-				status = 'In bed'
-			previous_distance = distance
-			print('Client Status: ' + status)
-			client.publish(topic, status)
-		#print("Distance(mm): %s" % (distance))
+		if distance < 1500:
+            print('yay')
+		#if abs(previous_distance - distance) > 350:
+			#if (distance < 600):
+				#status = 'Out of bed'
+			#else:
+				#status = 'In bed'
+			#previous_distance = distance
+			#print('Client Status: ' + status)
+			#client.publish(topic, status)
+
+		print("Distance(mm): %s" % (distance))
 		
 	except Exception as e:
 		print(e)
