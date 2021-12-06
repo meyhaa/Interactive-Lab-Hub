@@ -1,8 +1,8 @@
-x"""
+"""
 	Reading distance from the laser based VL53L1X
 	This example prints the distance to an object. If you are getting weird
 	readings, be sure the vacuum tape has been removed from the sensor.
-"""
+	"""
 
 import qwiic
 import time
@@ -39,7 +39,7 @@ while True:
 		time.sleep(1)
 		ToF.stop_ranging()
 
-		if abs(previous_distance - distance) > 350:
+		if abs(previous_distance - distance) > 450:
 			if (distance < 1400):
 				status = 'Out of bed'
 			else:
