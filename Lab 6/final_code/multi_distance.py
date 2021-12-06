@@ -26,20 +26,21 @@ topic = 'IDD/syw/multi-distance'
 
 print("VL53L1X Qwiic Test\n")
 ToF = qwiic.QwiicVL53L1X()
-if (ToF.sensor_init() == None):					 # Begin returns 0 on a good init
+if (ToF.sensor_init() == None):	# Begin returns 0 on a good init
 	print("Sensor online!\n")
 	
 
 previous_distance = 0
 while True:
 	try:
-		ToF.start_ranging()						 # Write configuration bytes to initiate measurement
+		ToF.start_ranging()	 # Write configuration bytes to initiate measurement
 		time.sleep(0.005)
 		distance = ToF.get_distance()	 # Get the result of the measurement from the sensor
 		time.sleep(1)
 		ToF.stop_ranging()
 		if distance < 1500:
-            print('yay')
+			status = 'Out of bed'
+			print(status)
 		#if abs(previous_distance - distance) > 350:
 			#if (distance < 600):
 				#status = 'Out of bed'
