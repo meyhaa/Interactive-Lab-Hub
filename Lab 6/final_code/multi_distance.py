@@ -1,4 +1,4 @@
-"""
+x"""
 	Reading distance from the laser based VL53L1X
 	This example prints the distance to an object. If you are getting weird
 	readings, be sure the vacuum tape has been removed from the sensor.
@@ -38,17 +38,15 @@ while True:
 		distance = ToF.get_distance()	 # Get the result of the measurement from the sensor
 		time.sleep(1)
 		ToF.stop_ranging()
-		if distance < 1500:
-			status = 'Out of bed'
-			print(status)
-		#if abs(previous_distance - distance) > 350:
-			#if (distance < 600):
-				#status = 'Out of bed'
-			#else:
-				#status = 'In bed'
-			#previous_distance = distance
-			#print('Client Status: ' + status)
-			#client.publish(topic, status)
+
+		if abs(previous_distance - distance) > 350:
+			if (distance < 1400):
+				status = 'Out of bed'
+			else:
+				status = 'In bed'
+			previous_distance = distance
+			print('Client Status: ' + status)
+			client.publish(topic, status)
 
 		print("Distance(mm): %s" % (distance))
 		
